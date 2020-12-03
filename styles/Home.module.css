@@ -33,6 +33,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  color: #0070f3;
 }
 
 .title a {
@@ -114,6 +115,20 @@
 .logo {
   height: 1em;
 }
+
+.posicionaBotao {
+  position: relative;
+  top: 20%;
+  left: 30%;
+}
+
+
+.posicionaBotao .botaoProximo {
+  height: 5.5em;
+  
+}
+
+
 
 @media (max-width: 600px) {
   .grid {
